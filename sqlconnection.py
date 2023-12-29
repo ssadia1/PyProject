@@ -1,9 +1,10 @@
 import mysql.connector
 import pandas as pd
 
-connection = mysql.connector.connect(host = "localhost",user = "root",password = "",database ="student_db")
+connection = mysql.connector.connect(host = "localhost",user = "root",password = "Corp@123",database ="student_db")
 # Printing the connection object
 print(mydb)
+print("Hello this is my 1st change")
 
 #Function to execute a SQL Query and return result in dataframe.
 def execute_query(query):
