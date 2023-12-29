@@ -5,6 +5,7 @@ connection = mysql.connector.connect(host = "localhost",user = "root",password =
 # Printing the connection object
 print(mydb)
 print("Hello this is my 1st change")
+print("Hello this is my 2nd change")
 
 #Function to execute a SQL Query and return result in dataframe.
 def execute_query(query):
